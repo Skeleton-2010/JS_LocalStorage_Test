@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Handy;
+  src: url(mister-n.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CodeInp,
+.NameInp,
+.LogInp {
+  font-family: Handy;
+  font-size: 64px;
+  background-color: #000000;
+  color: #902020;
+  text-decoration: none;
+  border: #000000;
+  border-bottom: 2px solid #902020;
+  text-align: center;
+  top: 256px;
+  left: 64px;
+}
+
+.ApplyBtn,
+.CheckBtn {
+  padding: 16px;
+  border: 2px solid #902020;
+  background-color: #000000;
+  border-radius: 4px;
+  font-size: 32px;
+  color: #888;
+  font-family: handy;
+}
+
+.ApplyBtn:hover,
+.CheckBtn:hover {
+  border: 2px solid #702020;
+  color: #666;
+}
+
+.Log {
+  border: 2px solid #902020;
+  width: 96%;
+  height: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.Inps {
+  height: 80vh;
+  width: 30vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #902020;
+  border-radius: 4px;
+}
+
+.NameStored {
+  font-size: 48px;
+  transition: 2s;
+  font-family: Handy;
+}
